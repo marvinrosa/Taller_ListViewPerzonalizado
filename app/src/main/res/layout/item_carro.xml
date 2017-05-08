@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+
+
+        <ImageView
+            app:srcCompat="@drawable/hyndai_img"
+            android:id="@+id/imgFoto"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_weight="1"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:text="TextView"
+            android:layout_width="74dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtPlacaCarro"
+            android:layout_marginTop="10dp"
+
+            android:layout_alignParentTop="true"
+            android:layout_alignStart="@+id/txtModeloCarro" />
+
+        <TextView
+            android:text="TextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtModeloCarro"
+            android:layout_below="@+id/txtMarcaCarro"
+            android:layout_marginLeft="165dp"
+            android:layout_marginTop="10dp"
+            />
+
+        <TextView
+            android:text="TextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtColorCarro"
+            android:layout_below="@+id/txtModeloCarro"
+            android:layout_marginLeft="165dp"
+            android:layout_marginTop="10dp"
+            />
+
+        <TextView
+            android:text="TextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtPrecioCarro"
+            android:layout_below="@+id/txtColorCarro"
+            android:layout_marginLeft="165dp"
+            android:layout_marginTop="10dp"
+
+            />
+
+        <TextView
+            android:text="TextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtMarcaCarro"
+
+            android:layout_marginTop="12dp"
+            android:layout_weight="1"
+            android:layout_below="@+id/txtPlacaCarro"
+            android:layout_alignStart="@+id/txtModeloCarro" />
+
+
+    </RelativeLayout>
+
+</LinearLayout>

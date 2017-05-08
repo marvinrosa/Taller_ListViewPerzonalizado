@@ -1,3 +1,66 @@
 <resources>
-    <string name="app_name">TallerListViewPer_Carros</string>
+
+    <string name="app_name">Carros</string>
+    <string name="str_titulo">REGISTRO</string>
+    <string name="str_nombre">Nombre</string>
+    <string name="str_apellido">Apellido</string>
+    <string name="str_edad">Edad</string>
+    <string name="str_leer">Leer</string>
+    <string name="str_bailar">Bailar</string>
+    <string name="str_programar">Programar</string>
+    <string name="str_mensaje">Carro Guardado exitosamente!</string>
+    <string name="str_borrar">Borrar</string>
+    <string name="str_placa">PLACA</string>
+    <string name="str_marca">MARCA</string>
+    <string name="str_modelo">MODELO</string>
+    <string name="str_color">COLOR</string>
+    <string name="str_precio">PRECIO</string>
+
+    <string name="str_registroCarros">REGISTRAR CARRO </string>
+    // ListView
+    <string name="str_registrar">REGISTRAR CARROS</string>
+    <string name="str_listar">LISTAR CARROS</string>
+    <string name="str_mostrar">REPORTES</string>
+    <string name="str_registro_de_carros">REGISTRO DE CARROS</string>
+    <string-array name="opciones">
+        <item>@string/str_registrar</item>
+        <item>@string/str_listar</item>
+        <item>@string/str_mostrar</item>
+    </string-array>
+
+
+    // Combos
+
+    // ComboBOX Marca
+    <string name="str_renault">Renault</string>
+    <string name="str_hyndai">Hyndai</string>
+    <string name="str_kia">Kia</string>
+    <string-array name="str_material">
+        <item>@string/str_renault</item>
+        <item>@string/str_hyndai</item>
+        <item>@string/str_kia</item>
+    </string-array>
+
+    // ComboBOX Modelo
+    <string name="str_2010">2010</string>
+    <string name="str_2016">2016</string>
+    <string name="str_1998">1998</string>
+    <string name="str_2017">2017</string>
+    <string-array name="str_tipo">
+        <item>@string/str_2010</item>
+        <item>@string/str_2016</item>
+        <item>@string/str_1998</item>
+        <item>@string/str_2017</item>
+    </string-array>
+
+    // ComboBOX Color
+
+    <string name="str_blanco">Blanco</string>
+    <string name="str_negro">Negro</string>
+    <string-array name="str_dije">
+        <item>@string/str_blanco</item>
+        <item>@string/str_negro</item>
+    </string-array>
+
+
 </resources>
