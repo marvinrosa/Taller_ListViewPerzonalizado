@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Cars</string>
+    <string name="str_amarillo">Yellow</string>
+    <string name="str_apellido">Lastame</string>
+    <string name="str_1998">1998</string>
+    <string name="str_2010">2010</string>
+    <string name="str_2016">2016</string>
+    <string name="str_2017">2017</string>
+    <string name="str_bailar">Dance</string>
+    <string name="str_blanco">White</string>
+    <string name="str_borrar">Clean</string>
+    <string name="str_color">COLOR</string>
+    <string name="str_edad">Age</string>
+    <string name="str_ford">Ford</string>
+    <string name="str_hyndai">Hyndai</string>
+    <string name="str_kia">Kia</string>
+    <string name="str_leer">Read</string>
+    <string name="str_listar">LIST OF CARS</string>
+    <string name="str_marca">BRAND</string>
+    <string name="str_mensaje">Saved Car Succesfully!</string>
+    <string name="str_modelo">MODEL</string>
+    <string name="str_mostrar">REPORTS</string>
+    <string name="str_negro">BLACK</string>
+    <string name="str_nombre">Name</string>
+    <string name="str_placa">LICENSE PLATE</string>
+    <string name="str_precio">PRICE</string>
+    <string name="str_programar">PROGRAM</string>
+    <string name="str_registrar">REGISTER OF CARS</string>
+    <string name="str_registroCarros">REGISTER CARS</string>
+    <string name="str_registro_de_carros">REGISTER OF CARS</string>
+    <string name="str_renault">Renault</string>
+    <string name="str_reporte1">No.  Cars Register</string>
+    <string name="str_reporte1_msj">Report No 1</string>
+    <string name="str_reporte2">No. Cars Register Brand</string>
+    <string name="str_reporte3">No. Cars Register Color</string>
+    <string name="str_rojo">Red</string>
+    <string name="str_titulo">REGISTER</string>
+    <string name="str_toyota">Toyota</string>
+    <string name="str_verde">Green</string>
+</resources>
