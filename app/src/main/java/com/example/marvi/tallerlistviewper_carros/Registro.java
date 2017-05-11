@@ -56,6 +56,8 @@ public class Registro extends AppCompatActivity {
         comboColor.setAdapter(adapterColor);
     }
 
+
+
     public void regitrar(View v){
 
         String rPlaca;

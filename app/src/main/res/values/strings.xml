@@ -35,7 +35,11 @@
     <string name="str_renault">Renault</string>
     <string name="str_hyndai">Hyndai</string>
     <string name="str_kia">Kia</string>
+    <string name="str_ford">Ford</string>
+    <string name="str_toyota">Toyota</string>
     <string-array name="str_material">
+        <item>@string/str_ford</item>
+        <item>@string/str_toyota</item>
         <item>@string/str_renault</item>
         <item>@string/str_hyndai</item>
         <item>@string/str_kia</item>
@@ -57,10 +61,38 @@
 
     <string name="str_blanco">Blanco</string>
     <string name="str_negro">Negro</string>
+    <string name="str_verde">Verde</string>
+    <string name="str_rojo">Rojo</string>
+    <string name="str_amarillo">Amarillo</string>
     <string-array name="str_dije">
-        <item>@string/str_blanco</item>
+        <item>@string/str_verde</item>
         <item>@string/str_negro</item>
+        <item>@string/str_rojo</item>
+        <item>@string/str_blanco</item>
+        <item>@string/str_amarillo</item>
     </string-array>
+
+    //
+
+    // ListView
+    <string name="str_reporte1">No. de Carros registrados</string>
+    <string name="str_reporte2">No. de Carros por marca registrados</string>
+    <string name="str_reporte3">No. de Carros por Color registrados</string>
+    <!--  <string name="str_reporte4">No. de Carros entre 2010 y 2015 registrados</string>
+   <string name="str_reporte5">Datos del carro más caro</string>
+    <string name="str_reporte6">Datos del carro más económico</string>  -->
+
+    <string-array name="str_reportes">
+        <item>@string/str_reporte1</item>
+        <item>@string/str_reporte2</item>
+        <item>@string/str_reporte3</item>
+        <!--    <item>@string/str_reporte4</item>
+        <item>@string/str_reporte5</item>
+        <item>@string/str_reporte6</item> -->
+    </string-array>
+
+    // Reportes
+    <string name="str_reporte1_msj"> Reporte No 1</string>
 
 
 </resources>

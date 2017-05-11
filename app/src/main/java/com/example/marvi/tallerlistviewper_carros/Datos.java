@@ -16,7 +16,7 @@ public class Datos {
         carros.add(c);
     }
 
-    public static ArrayList<Carro> getPersonas() {
+    public static ArrayList<Carro> getCarros() {
         return carros;
     }
 }

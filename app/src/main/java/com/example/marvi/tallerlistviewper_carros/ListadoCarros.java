@@ -16,7 +16,7 @@ public class ListadoCarros extends AppCompatActivity {
         setContentView(R.layout.activity_listado_carros);
 
         lista = (ListView)findViewById(R.id.lvListadoCarros);
-        carros = Datos.getPersonas();
+        carros = Datos.getCarros();
 
         AdaptadorCarros adapter = new AdaptadorCarros(this,carros);
         lista.setAdapter(adapter);

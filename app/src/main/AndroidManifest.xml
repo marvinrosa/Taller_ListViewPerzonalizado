@@ -17,7 +17,9 @@
         </activity>
         <activity android:name=".Registro" />
         <activity android:name=".Listado" />
-        <activity android:name=".ListadoCarros"></activity>
+        <activity android:name=".ListadoCarros" />
+        <activity android:name=".Reporteria" />
+        <activity android:name=".Reporte1"></activity>
     </application>
 
 </manifest>
